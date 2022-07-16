@@ -1,0 +1,166 @@
+  html, body {
+  font-family: "Open sans", sans-serif;
+  margin: 5px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    position: relative;
+    background-color: rgb(32, 31, 31);
+    overflow: hidden;
+    text-align: center;
+    display: inline-flexbox;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    color: #f2f2f2;
+    padding:1px 10px;
+    text-decoration: none;
+    font-size: 3vh;
+    font-family: bangers;
+    letter-spacing: 10px;
+    flex: auto;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(52, 17, 228);
+    color: rgb(24, 22, 22);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:rgb(247, 244, 245);
+    color: rgba(18, 17, 17, 0.751);
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(21, 21, 22);
+    font-family: bangers;
+    letter-spacing: 20px;
+    font-size: 5vh;
+  }
+  #color-button {
+    position: relative;
+    bottom: 4px;
+    right: 20px;
+    height: 40px;
+    width: 100px;
+    font-family: bangers;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  #color-button:hover {
+    background-color: blue;
+    color: azure;
+  }
+  .lineOne {
+    height: 3px;
+    border: none;
+    background-color: black;
+  }
+  .lineTwo {
+    height: 5px;
+    border: none;
+    background-color: black;
+  }
+  .lineThree {
+    height: 7px;
+    border: none;
+    background-color: black;
+  }
+  .lineFour {
+    height: 10px;
+    border: none;
+    background-color: black;
+  }
+  .lineFive {
+    height: 4px;
+    border: none;
+    background-color: black;
+  }
+  h2{
+    font-style: italic;
+    color: rgb(21, 21, 23);
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .arlo {
+    max-width: 40%;
+    max-height: 40%;
+    min-width: 30%;
+    min-width: 30%;
+    display: block;
+    margin: auto;
+  }
+  figcaption {
+    text-align: center;
+    margin: auto;
+    border: 1px dotted;
+  }
+  .logo {
+    padding: 0;
+    display: block;
+    margin: 0  auto;
+    max-height: 100%;
+    max-width: 100%;
+    height: 100px;
+  }
+  .skills {
+    height: 100px;
+    width: 100%;
+    font-size: 80px;
+    font-family: bangers;
+    background-color: rgb(252, 251, 251);
+    color: rgb(20, 20, 20);
+    border-radius: 20px;
+    border: 5px solid black
+  }
+  .skills:hover {
+    background-color: rgb(17, 17, 17);
+    color: azure;
+    cursor: pointer;
+  }
+  .contact {
+    text-align: center;
+    font-size: 16px;
+  }
+  #skillLogos {
+   width: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-left: 50%;
+    
+  }
+  #skillLogos img {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    flex: auto;
+  }
+  #close-button {
+    height: 48px;
+    width: 100%;
+    font-size: 30px;
+    font-family: bangers;
+    background-color: rgb(252, 251, 251);
+    color: rgb(20, 20, 20);
+    border-radius: 20px;
+    border: 5px solid black
+  }
+  #close-button:hover {
+    background-color: black;
+    color: azure;
+  }
+  .portfolio {
+    text-align: center;
+  }
